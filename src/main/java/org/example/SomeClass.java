@@ -10,11 +10,11 @@ public class SomeClass implements ImplementableEnum {
         return "Hello from test project";
     }
 
-    private Double calculateEmbedmentDepthRange(MountingSystemConfigurationFormObject roofArrayOptions) {
-        // v---- panaudojimas
-        double maxEmbedment = roofArrayOptions.rafterDimensions().getWidthInInches();
-        return maxEmbedment;
-    }
+//    private Double calculateEmbedmentDepthRange(MountingSystemConfigurationFormObject roofArrayOptions) {
+//        // v---- panaudojimas
+//        double maxEmbedment = roofArrayOptions.rafterDimensions().getWidthInInches();
+//        return maxEmbedment;
+//    }
 
     public void something (String param){
 
